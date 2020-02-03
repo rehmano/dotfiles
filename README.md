@@ -1,7 +1,7 @@
 # dotfiles
 My personal configuration files for i3wm.
 
-#Dependencies
+# Dependencies
 i3-gaps
 rofi
 dunst
