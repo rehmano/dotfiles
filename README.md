@@ -6,4 +6,6 @@ i3-gaps
 rofi
 dunst
 i3status
+playerctl
+picom
 
