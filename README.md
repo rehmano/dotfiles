@@ -25,25 +25,9 @@ ttf-font-awesome
 
 # Dependencies on Arch
 
-```sudo pacman -S i3-gaps
-rofi
-dunst
-i3status
-playerctl
-picom
-dmenu
-i3lock
-i3status
-perl-anyevent-i3
-perl-json-xs
-rxvt-unicode
-xorg-xprop
-xorg-xwininfo
-dbus
-python
-libnotify
-pavucontrol
-ttf-font-awesome```
+```
+sudo pacman -S i3-gaps rofi dunst i3status playerctl picom dmenu i3lock i3status perl-anyevent-i3 perl-json-xs rxvt-unicode xorg-xprop xorg-xwininfo dbus python libnotify pavucontrol ttf-font-awesome
+```
 
 
 # Installation
