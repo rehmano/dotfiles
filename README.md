@@ -20,6 +20,7 @@ xorg-xwininfo
 dbus
 python
 libnotify
+pavucontrol
 
 # Installation
 * Move i3 folder to ~/.config/i3
