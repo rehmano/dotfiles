@@ -9,6 +9,17 @@ i3status
 playerctl
 picom
 [i3spotifystatus](https://github.com/rpieja/i3spotifystatus)
+dmenu
+i3lock
+i3status
+perl-anyevent-i3
+perl-json-xs
+rxvt-unicode
+xorg-xprop
+xorg-xwininfo
+dbus
+python
+libnotify
 
 # Installation
 * Move i3 folder to ~/.config/i3
