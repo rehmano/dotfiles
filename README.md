@@ -21,6 +21,7 @@ dbus
 python
 libnotify
 pavucontrol
+ttf-font-awesome
 
 # Installation
 * Move i3 folder to ~/.config/i3
