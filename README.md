@@ -27,4 +27,4 @@ libnotify
 * Move dunst folder to ~/.config/dunst
 * Move i3status folder to ~/.config/i3status
 * Move picom folder to ~/.config/picom
-* If you are using the i3spotifystatus change the i3 config in the bar block to the new directory of i3spotifystatus.
+* If you are using the i3spotifystatus change the i3 config in the bar block to the new directory of i3spotifystatus. If you are not remove the code thats piped after "status_command i3" as-well as remove the pipe.
