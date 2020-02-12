@@ -25,7 +25,7 @@ ttf-font-awesome
 
 # Dependencies on Arch
 
-`sudo pacman -S i3-gaps
+```sudo pacman -S i3-gaps
 rofi
 dunst
 i3status
@@ -43,7 +43,7 @@ dbus
 python
 libnotify
 pavucontrol
-ttf-font-awesome`
+ttf-font-awesome```
 
 
 # Installation
