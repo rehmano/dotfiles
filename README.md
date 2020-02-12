@@ -8,4 +8,5 @@ dunst
 i3status
 playerctl
 picom
+[i3spotifystatus](https://github.com/rpieja/i3spotifystatus)
 
