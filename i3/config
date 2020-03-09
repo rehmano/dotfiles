@@ -42,9 +42,9 @@ exec --no-startup-id dunst
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id lxpolkit &
 #exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/rehmans/.i3/workspace-3.json'"
-exec --no-startup-id i3-msg 'workspace 3; exec /var/lib/flatpak/exports/bin/org.telegram.desktop' #I enjoy launching my apps when I log in. 
-exec --no-startup-id i3-msg 'workspace 3; exec /var/lib/flatpak/exports/bin/com.discordapp.Discord'
-exec --no-startup-id i3-msg 'workspace 3; exec /var/lib/flatpak/exports/bin/com.spotify.Client'
+#exec --no-startup-id i3-msg 'workspace 3; exec /var/lib/flatpak/exports/bin/org.telegram.desktop' #I enjoy launching my apps when I log in. 
+#exec --no-startup-id i3-msg 'workspace 3; exec /var/lib/flatpak/exports/bin/com.discordapp.Discord'
+#exec --no-startup-id i3-msg 'workspace 3; exec /var/lib/flatpak/exports/bin/com.spotify.Client'
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -142,11 +142,11 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-workspace $ws1 output DP-0
-workspace $ws2 output DP-0
-workspace $ws3 output HDMI-0
-workspace $ws4 output HDMI-0
-workspace $ws5 output HDMI-0
+#workspace $ws1 output DP-0
+#workspace $ws2 output DP-0
+#workspace $ws3 output HDMI-0
+#workspace $ws4 output HDMI-0
+#workspace $ws5 output HDMI-0
 
 
 # switch to workspace
@@ -178,7 +178,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "/home/rehmans/dotfiles/rofi-power"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -211,7 +211,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	i3bar_command i3bar --transparency
-        status_command i3status | ~/dotfiles/i3spotifystatus/pystatus.py
+        status_command i3status
 	
 	position top
 	colors {
