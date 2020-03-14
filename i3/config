@@ -213,6 +213,8 @@ bar {
 	i3bar_command i3bar --transparency
         status_command i3status | ~/dotfiles/i3spotifystatus/pystatus.py
 	
+	tray_output primary
+	
 	position top
 	colors {
 		background #000000aa
