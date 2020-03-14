@@ -1,6 +1,8 @@
 # dotfiles
 My personal configuration files for i3wm.
-
+```
+git clone --recursive https://github.com/rehmano/dotfiles.git
+```
 # Dependencies
 i3-gaps
 rofi
