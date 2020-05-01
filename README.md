@@ -30,7 +30,7 @@ nitrogen
 # Dependencies on Arch
 
 ```
-sudo pacman -S i3-gaps rofi dunst i3status playerctl picom dmenu i3lock i3status perl-anyevent-i3 perl-json-xs rxvt-unicode xorg-xprop xorg-xwininfo dbus python libnotify pavucontrol ttf-font-awesome lxsession nitrogen
+yay -S i3-gaps xorg-server xorg-drivers rofi picom xorg-xwininfo feh lxsession nitrogen pavucontrol dunst python-pywal polybar noto-fonts-extra noto-fonts-emoji noto-fonts-cjk noto-fonts ttf-dejavu siji-git ttf-unifont xorg-fonts-misc mpv firefox pcmanfm xarchiver unrar virt-manager qemu libvirt ebtables dnsmasq libreoffice zathura zathura-pdf-mupdf scrot flatpak htop pulseaudio alsa-utils pulseaudio-alsa pulseaudio-bluetooth xorg-xprop xorg-xrandr xorg-xrdb
 ```
 
 
