@@ -43,3 +43,7 @@ sudo pacman -S i3-gaps rofi dunst i3status playerctl picom dmenu i3lock i3status
 * Setup wallpapers with Nitrogen
 * If you are using the i3spotifystatus change the directory to it in the i3 config in the bar block to the new directory of i3spotifystatus. If you are not remove the code thats piped after "status_command i3" as-well as remove the pipe.
 * If you don't have an NVIDIA gpu or don't want it set to Maximum Performance by default remove or comment out line 39.
+
+# Firefox
+* ui.context_menus.after_mouseup to true
+* frame_rate to 144
